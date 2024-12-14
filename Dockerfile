@@ -15,6 +15,6 @@ RUN chmod -R 777 /app/backend/data
 RUN chmod -R 777 /app/cache
 RUN chmod -R 777 /tmp
 ENV PGSSLCERT /tmp/postgresql.crt
-EXPOSE 7860
+EXPOSE 8080
 
 CMD ["bash", "start.sh"]
